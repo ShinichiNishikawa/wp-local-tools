@@ -22,3 +22,6 @@ curl https://raw.githubusercontent.com/ShinichiNishikawa/wp-local-tools/master/r
 
 // Retrieve .gitignore template
 curl https://raw.githubusercontent.com/ShinichiNishikawa/wp-local-tools/master/resources/WordPress.gitignore > .gitignore
+
+// Retrieve wp-cli.local.yml template for WP-CLI
+curl https://raw.githubusercontent.com/ShinichiNishikawa/wp-local-tools/master/resources/wp-cli.local.yml > wp-cli.local.yml
