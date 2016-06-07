@@ -15,7 +15,7 @@ npm install browser-sync --save-dev
 npm install gulp-plumber --save-dev
 npm install gulp-sourcemaps --save-dev
 
-curl https://gist.githubusercontent.com/ShinichiNishikawa/7f72356d3edcb33addef/raw/39da698e15e0da725f9d0f47b72c575e889f7818/gulpfile.js > gulpfile.js
+curl https://raw.githubusercontent.com/ShinichiNishikawa/wp-local-tools/master/resources/gulpfile.js > gulpfile.js
 
 mkdir sass
 touch sass/style.scss
