@@ -14,6 +14,8 @@ The scripts here requires the following tools.
 
 ### WP Backup
 
+This is useful when you create a backup of a project from your remote, and update all on your local machine.
+
 Run in a working WordPress project directory, this script
 
 - creates a folder, `~/Dropbox/Backups/{pwd}/{time}/`,
@@ -25,6 +27,8 @@ Run in a working WordPress project directory, this script
 
 ### WP init
 
+This will set up a whole new WordPress.
+
 Run in a folder to create a new WordPress project, this script
 
 - downloads the newest WordPress software,
@@ -34,6 +38,8 @@ Run in a folder to create a new WordPress project, this script
 - downloads Movefile for Wordmove, wp-cli.local.yml for wp-cli, and .gitignore for Git.
 
 ### Theme init
+
+Create a gulp environment for your theme development with this comment.
 
 Run in a theme folder, this script
 
