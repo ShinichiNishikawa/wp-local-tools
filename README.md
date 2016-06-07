@@ -2,6 +2,8 @@
 
 This is a toolkit to make your WordPress life a lot easier, meant to be used on a local machine. Let's automate installing WordPress, creating remote backups, starting coding themes with gulp, all by one command.
 
+[日本語の readme はこちら](https://github.com/ShinichiNishikawa/wp-local-tools/blob/master/README-ja.md)
+
 ## Requirements
 
 The scripts here requires the following tools.
