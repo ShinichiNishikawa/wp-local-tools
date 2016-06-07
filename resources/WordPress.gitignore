@@ -6,6 +6,7 @@
 error_log
 Movefile
 wp-cli.yml
+wp-cli.local.yml
 sitemap.xml
 sitemap.xml.gz
 .bash
