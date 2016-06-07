@@ -1,5 +1,7 @@
 #!/bin/sh -eu
 
+type wp >/dev/null 2>&1 || { echo >&2 "wp-cli is not installed.  Aborting."; exit 1; }
+
 # Variables.
 DIRNAME=${PWD##*/}
 HTTP_HOST='$_SERVER["HTTP_HOST"]'
