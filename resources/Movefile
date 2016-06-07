@@ -1,0 +1,41 @@
+local:
+  vhost: "http://example.dev"
+  wordpress_path: "/Users/papa/Sites/example.dev"
+
+  database:
+    name: "example"
+    user: "root"
+    password: "root"
+    host: "localhost"
+
+staging:
+  vhost: "http://example.com"
+  wordpress_path: "/var/www/vhosts/i-example"
+
+  database:
+    name: "remote_db_name"
+    user: "remote_db_user"
+    password: "remote_db_pass"
+    host: "localhost"
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".sass-cache/"
+    - ".ssh/"
+    - ".pki/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "wp-cli.yml"
+    - "wp-config.php"
+    - "wp-content/*.sql"
+    - "wp-content/.git"
+    - "wp-content/.gitignore"
+    - "*.sql"
+
+  ssh:
+    host: "192.0.2.0"
+    user: "nginx"
+    port: 20022
