@@ -1,4 +1,5 @@
-#!/bin/sh -eu
+#!/usr/bin/env bash
+set -ex
 
 type wp >/dev/null 2>&1 || { echo >&2 "wp-cli is not installed.  Aborting."; exit 1; }
 

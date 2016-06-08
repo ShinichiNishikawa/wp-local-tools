@@ -1,4 +1,5 @@
-#!/bin/sh -ux
+#!/usr/bin/env bash
+set -ex
 
 git init
 
