@@ -1,5 +1,6 @@
 *.log
 *.sql
+*.sql.zip
 .DS_Store
 .htaccess
 *.map

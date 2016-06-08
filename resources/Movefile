@@ -28,7 +28,7 @@ staging:
     - "tmp/*"
     - "Gemfile*"
     - "Movefile"
-    - "wp-cli.yml"
+    - "wp-cli.local.yml"
     - "wp-config.php"
     - "wp-content/*.sql"
     - "wp-content/.git"
